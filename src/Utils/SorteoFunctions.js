@@ -102,7 +102,7 @@ export const  Sortear2 = async (data, premios, min, max, setParentProgress) => {
 
     const campo = "idsolicitante";
 
-    let listaPremios = [premios];
+    let listaPremios = [data.length];
   
     for(var i = 0; i < data.length; i++){
         const valor =eval('data[' + i +'].'+ campo);
