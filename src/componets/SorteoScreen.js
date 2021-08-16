@@ -4,10 +4,10 @@ import * as d3 from 'd3';
 
 
 import { useForm } from '../hooks/useForm';
-import { PDFDownloadLink, BlobProvider } from '@react-pdf/renderer';
-import { PdfExport } from './PdfExport';
+//import { PDFDownloadLink, BlobProvider } from '@react-pdf/renderer';
+//import { PdfExport } from './PdfExport';
 import Progress_bar from './Progress_bar';
-import { pause, Sortear, Sortear2 } from '../Utils/SorteoFunctions';
+import { pause, Sortear2 } from '../Utils/SorteoFunctions';
 //import { doc, generarPdf } from './Pdf_jspdf';
 
 
@@ -79,9 +79,9 @@ export const SorteoScreen = () => {
         window.print();
     }
 
-    const handleExportarPDF = () => {
+    // const handleExportarPDF = () => {
 
-    }
+    // }
 
 
     return (
